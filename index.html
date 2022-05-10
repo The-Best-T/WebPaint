@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<div class="mainContent">
+    <canvas id="myCanvas" width="800" height="500">
+        Ваш браузер не поддерживает Canvas
+    </canvas>
+    <div class="flex-container">
+        <div id="currentColor" class="flex-item"></div>
+
+        <div class="flex-item" style="background-color: black"
+             onclick="changeColor(this)">
+        </div>
+        <div class="flex-item" style="background-color: darkred"
+             onclick="changeColor(this)">
+        </div>
+        <div class="flex-item" style="background-color: green"
+             onclick="changeColor(this)">
+        </div>
+        <div class="flex-item" style="background-color: blue"
+             onclick="changeColor(this)">
+        </div>
+        <div class="flex-item" style="background-color: red"
+             onclick="changeColor(this)">
+        </div>
+        <div class="flex-item" style="background-color: orange"
+             onclick="changeColor(this)">
+        </div>
+        <div class="flex-item" style="background-color: lawngreen"
+             onclick="changeColor(this)">
+        </div>
+
+        <div class="flex-item" style="background-color: deepskyblue"
+             onclick="changeColor(this)">
+        </div>
+
+        <div class="flex-item" style="background-color: yellow"
+             onclick="changeColor(this)">
+        </div>
+        <div class="flex-item" style="background-color: white"
+             onclick="changeColor(this)">
+        </div>
+
+    </div>
+    <label for="MouseSize">Mouse Size</label>
+    <input id="MouseSize" onchange="ChangeMouseSize(this)"
+           type="range" min="0.1" max="10" step="0.1" value="5">
+    <button id="clearButton" onclick="Clear()">Clear</button>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

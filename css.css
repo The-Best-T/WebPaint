@@ -1,0 +1,48 @@
+#myCanvas {
+    margin: auto;
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+.mainContent {
+    margin: auto;
+    text-align: center;
+    width: 850px;
+    height: 550px;
+}
+
+.flex-container {
+    display: flex;
+    margin: auto;
+}
+
+.flex-item {
+    text-align: center;
+    padding: 1.5em;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 1.5em;
+}
+
+#currentColor {
+    margin-right: 3em;
+    background-color: white;
+    border: 2px dashed black;
+}
+
+#clearButton {
+    width: 10em;
+    height: 5em;
+    margin: 20px;
+    background-color: white;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+#MouseSize {
+    width: 150px;
+}
